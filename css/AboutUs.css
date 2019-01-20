@@ -1,0 +1,52 @@
+/*aBOUT us css file*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #6200EA;
+    color: #46484a;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", sans-serif
+}
+
+.navbar-transparent {
+    border-width: 5px;
+}
+
+.navbar {
+    position: sticky top;
+    z-index: 9;
+}
+
+.navbar-nav a {
+    color: orange;
+}
+
+.w3-quarter img {
+    margin-bottom: -6px;
+    cursor: pointer
+}
+
+.w3-quarter img:hover {
+    opacity: 0.6;
+    transition: 0.3s
+}
+
+.w3-content  {
+    max-width: 1600px;
+    margin-top: 0px;
+}

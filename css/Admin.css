@@ -1,0 +1,25 @@
+/*admin css file*/
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+background-color: #6200EA;
+color: #46484a;
+
+}
+.navbar-transparent{
+    border-width: 1px;
+}
+.navbar{
+  position: sticky;
+ z-index:9;
+}
+.navbar-nav a{
+  color: orange;
+}

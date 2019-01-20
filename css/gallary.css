@@ -1,0 +1,187 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+background: #ECEFF1;
+color: #46484a;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* navbar Style */
+.navbar-transparent{
+    border-width: 5px;
+}
+.navbar{
+  position: sticky top;
+ z-index:9;
+}
+.navbar-nav a{
+  color: orange;
+}
+ 
+/* css for adding album section */
+.album{
+  height: 475px;
+ }
+ .album h1{
+  text-align: center;
+ }
+/* Basic sample */
+
+/* body{
+	overflow:hidden;
+	background-color:#fcfcfc;
+	margin:0;
+	padding:0;
+} */
+
+.flipbook-viewport{
+	overflow:hidden;
+	width:100%;
+  height:100%;
+  padding-bottom: 50px;
+}
+
+.flipbook-viewport .container{
+	position: relative;
+	top:50%;
+	left:50%;
+	margin:auto;
+}
+
+.flipbook-viewport .flipbook{
+	width:800px;
+	height:400px;
+	left:-500px;
+	top:-200px;
+}
+
+.flipbook-viewport .page{
+	width:400px;
+	height:400px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.flipbook .page{
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.flipbook-viewport .page img{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin:0;
+}
+
+.flipbook-viewport .shadow{
+	-webkit-transition: -webkit-box-shadow 0.5s;
+	-moz-transition: -moz-box-shadow 0.5s;
+	-o-transition: -webkit-box-shadow 0.5s;
+	-ms-transition: -ms-box-shadow 0.5s;
+
+	-webkit-box-shadow:0 0 20px #ccc;
+	-moz-box-shadow:0 0 20px #ccc;
+	-o-box-shadow:0 0 20px #ccc;
+	-ms-box-shadow:0 0 20px #ccc;
+	box-shadow:0 0 20px #ccc;
+}
+
+.flipbook-viewport .double{
+	width:800px;
+	height:400px;
+	background-size:100% 100%;
+}
+
+
+.Pre-Wedding{
+  min-height: fit-content;
+}
+
+.Wedding{
+  min-height: fit-content;
+}
+.BabyPhoto{
+  margin: 0px 2px 0px 2px;
+  height: 1000px;
+  background: #B3E5FC;
+}
+.zoom {
+  padding: 15px;
+  
+  transition: transform .2s; /* Animation */
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.rowwed{
+  align-content: center;
+}
+.Pre-Wedding h1,
+.Wedding h1,
+.BabyPhoto h1
+{
+ text-align: center;
+ padding: 50px;
+}
+/* css for baby section */
+.BabyPhoto{
+  min-height: fit-content;
+  background:  #ECEFF1;
+}
+
+.w3-quarter{
+  padding: 4px;
+  padding-bottom: 4px;
+}
+.w3-quarter img {
+  margin-bottom: 6px;
+  cursor: pointer;
+ 
+}
+
+.w3-quarter img:hover {
+  opacity: 0.6;
+  transition: 0.3s
+}
+.w3-content{
+  max-width: 100%;
+  margin: auto;
+}
